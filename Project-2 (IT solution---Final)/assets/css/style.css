@@ -1,0 +1,497 @@
+/*
+Index
+-------
+
+01. Reset CSS
+02. Header Area
+03. Banner Area
+04. About Area
+05. Services Area
+06. Teams Area
+07. News Area
+08. Contact Area
+09. Footer Area
+*/
+
+/*Reset CSS start*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+.pt-30{
+	padding-top: 30px;
+}
+.pb-30{
+	padding-bottom: 30px;
+}
+/*Reset CSS End*/
+
+/*Header CSS Start*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.logo {
+    flex-basis: 281px;
+}
+.logo a {
+	text-transform: uppercase;
+	color: #333;
+	font-size: 30px;
+	font-weight: bold;
+}
+.menu {
+	flex-basis: 516px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+}
+
+.menu ul li a {
+	color: #333;
+	font-size: 15px;
+	padding: 0 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+    transition: .3s;
+}
+.menu ul li a:hover {
+    color: #2576FD;
+} 
+/*Header CSS End*/
+
+/*Banner CSS Start*/
+.banner-area {
+    background-position: center;
+    background-size: cover;
+    height: 890px;
+}
+.banner {
+    width: 554px;
+    padding: 235px 0;
+}
+.banner h4 {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.banner h1 {
+    font-size: 104px;
+    padding: 39px 0;
+}
+.banner p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 14px;
+    color: gray;
+}
+/*Banner CSS End*/
+
+/*About CSS Start*/
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 70px 0;
+    align-items: center;
+}
+.about-info {
+    flex-basis: 478px;
+}
+.about-info h3 {
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #565656;
+    padding: 10px 0;
+}
+.about-info h2 {
+    font-size: 43px;
+    line-height: 49px;
+    color: black;
+    font-weight: bolder;
+    font-family: system-ui;
+}
+.about-info p {
+    font-size: 20px;
+    padding: 10px 0;
+    line-height: 28px;
+    color: gray;
+}
+.about-contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 14px 0;
+}
+.single-contact {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-basis: 225px;
+    border: 1px solid transparent;
+    background-color: aliceblue;
+    margin-right: 14px;
+}
+.single-contact i {
+    height: 29px;
+    width: 30px;
+    line-height: 29px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    font-size: 17px;
+    color: teal;
+    margin-left: 30px;
+    background-color: white;
+}
+.single-contact h4 {
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: black;
+    padding-left: 7px;
+}
+.single-contact span {
+    display: block;
+    text-transform: initial;
+}
+.about-img {
+    flex-basis: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 16px;
+    align-items: center;
+}
+.about-img img {
+    width: 50%;
+    padding: 0 12px;
+}
+/*About CSS End*/
+
+/*Services CSS Start*/
+.service-area,.news-area{
+	background-color: #1f242c;
+}
+.service-title {
+	font-size: 45px;
+	text-transform: capitalize;
+	color: #43baff;
+	padding: 100px 0 70px;
+	text-align: center;
+}
+.section-title {
+	font-size: 42px;
+	text-transform: capitalize;
+	color: white;
+	padding: 50px 40px;
+}
+.service {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 34px;
+}
+.single-service {
+    flex-basis: 256px;
+    margin-bottom: 70px;
+    border: 2px solid transparent;
+    background-color: #262c35;
+    border-radius: 4%;
+    transition: .5s;
+}
+.single-service:hover{
+    border-color: #2576FD;
+}
+.single-service img {
+    width: 30%;
+    margin: 16px 89px;
+}
+.single-service h2 {
+    font-size: 23px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+.single-service span {
+    text-transform: uppercase;
+}
+.single-service p {
+    font-size: 21px;
+    text-align: initial;
+    padding-top: 15px;
+    line-height: 30px;
+    color: #8f96a0;
+    padding-left: 13px;
+    padding-bottom: 23px;
+}
+.single-service a {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: gray;
+    font-weight: 500;
+    padding-left: 13px;
+}
+.single-service:hover a{
+    color: #43baff;
+}
+/*Services CSS End*/
+
+/*Teams CSS Start*/
+.team-title {
+    font-size: 19px;
+    text-align: center;
+    color: #12a2f6;
+    text-transform: capitalize;
+    padding-top: 70px;
+}
+.team-info {
+    font-size: 39px;
+    padding: 23px 0;
+    text-align: center;
+    color: #1f242c;
+    text-transform: capitalize;
+}
+.team-info span {
+    display: block;
+    line-height: 74px;
+}
+.team {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.team img {
+    width: 21%;
+    margin: 23px;
+    transition: 0.4s;
+}
+.team img:hover {
+    transform: scale(1.1);
+}
+/*Team CSS End*/
+
+/*News CSS Start*/
+.news-area {
+    margin-top: 41px;
+}
+.news {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.single-news {
+    flex-basis: 370px;
+    margin-bottom: 70px;
+}
+.single-news img{
+    width: 100%;
+}
+.single-news h3 {
+    font-size: 27px;
+    line-height: 39px;
+    color: white;
+    transition: .5s;
+}
+.single-news h3:hover{
+    color: #12a2f6;
+}
+
+.news-items ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.news-items ul li {
+    padding: 23px 0;
+}
+.news-items ul li i {
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    color: gray;
+}
+.news-items ul li span {
+    font-size: 12px;
+    padding-left: 6px;
+}
+/*News CSS End*/
+
+/*Contact CSS Start*/
+.contact-title{
+    font-size: 42px;
+    text-transform: capitalize;
+    color: black;
+    padding: 20px 0;
+}
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 27px;
+}
+.contact-info {
+    flex-basis: 440px;
+    padding: 0 35px;
+}
+.single-info {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 17px 0;
+    border-bottom: 2px solid gray;
+    padding: 20px 0;
+}
+.single-info i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 21px;
+    border-radius: 50%;
+    border: 1px solid rgb(206 206 206);
+    color: #198ce7;
+    background-color: rgb(206 206 206);
+    margin-right: 10px;
+    text-align: center;
+}
+.single-info i:hover{
+    color: rgb(0, 0, 0);
+    background-color: #198ce7;
+    border-color: #198ce7;
+}
+.single-info h2 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: system-ui;
+    line-height: 31px;
+}
+.single-info span {
+    display: block;
+}
+.contact-form {
+    flex-basis: 560px;
+}
+.contact-form h1,.info-list h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #4a4a4a;
+    font-family: serif;
+    font-weight: 200;
+}
+.contact-text form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.contact-text input {
+    width: 49%;
+    height: 43px;
+    margin: 23px 0;
+    font-size: 16px;
+    font-family: system-ui;
+    font-weight: 400;
+    padding-left: 3px;
+    border: 1px solid transparent;
+    background-color: #dfdfdf;
+}
+.cont-massage textarea {
+    width: 100%;
+    height: 140px;
+    font-size: 17px;
+    padding-top: 5px;
+    font-family: ui-monospace;
+    font-weight: 400;
+    padding-left: 4px;
+    border: 1px solid transparent;
+    background-color: #dfdfdf;
+}
+.cont-massage input[type="submit"] {
+    font-size: 17px;
+    padding: 7px;
+    width: 30%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 14px;
+    border: 1px solid transparent;
+    background-color: #dfdfdf;
+    transition: .5s;
+}
+.cont-massage input[type="submit"]:hover{
+    color: white;
+    background-color: black;
+}
+/*Contact CSS End*/
+
+/*Footer CSS Start*/
+.footer-area {
+    background-color: #2b3037;
+    margin-top: 70px;
+}
+.footer h1 {
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 15px 0;
+}
+.footer ul li {
+    padding: 0 10px;
+}
+.footer ul li a i {
+    width: 17px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 19px;
+    color: #ffffff;
+    transition: .5s;
+}
+.footer ul li a i:hover{
+    color:teal;
+}
+.footer p {
+    font-size: 17px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+.footer span {
+    font-size: 19px;
+    font-family: serif;
+    font-weight: bold;
+    color: #2576FD;
+    cursor: pointer;
+}
+/*Footer CSS End*/

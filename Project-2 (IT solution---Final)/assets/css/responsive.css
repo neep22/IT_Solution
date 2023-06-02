@@ -1,0 +1,277 @@
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .container{
+        width: 970px;
+       
+    }
+    .header {
+        margin: 0 11px;
+    }
+    .menu {
+        flex-basis: 519px;
+    }
+    .banner {
+        width: 629px;
+        padding: 235px 24px;
+    }
+    .about {
+        margin: 70px 7px;
+    }
+    .about-info {
+        flex-basis: 478px;
+    }
+    .about-img {
+        flex-basis: 438px;
+    }
+    .about-img img {
+        width: 50%;
+        padding: 0 8px;
+    }
+    .service-title {
+        padding-left: 20px;
+    }
+    .section-title {
+        padding: 20px;
+    }
+    .service {
+        margin: 24px 26px;
+    }
+    .single-service {
+        flex-basis: 214px;
+        border-radius: 4%;
+    }
+    .team-title {
+        padding-top: 34px;
+    }
+    .team {
+        margin: 0 23px;
+    }
+    .team img {
+        width: 21%;
+        margin: 18px;
+    }
+    .single-news {
+        flex-basis: 314px;
+    }
+    .single-news h3 {
+        font-size: 26px;
+    }
+    .contact-info {
+        flex-basis: 378px;
+        padding: 0 9px;
+    }
+    .contact-form {
+        flex-basis: 483px;
+    }
+
+}
+
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        width: 750px;
+    }
+    .logo {
+        flex-basis: 276px;
+    }
+    .logo a {
+        font-size: 27px;
+    }
+    .menu {
+        flex-basis: 442px;
+    }
+    .menu ul li a {
+        font-size: 13px;
+        padding: 0 14px;
+    }
+    .banner h1 {
+        font-size: 97px;
+    }
+    .banner p {
+        font-size: 19px;
+    }
+    .about-info {
+        flex-basis: 427px;
+    }
+    .single-contact {
+        flex-basis: 198px;
+        margin-right: 15px;
+    }
+    .about-info {
+        flex-basis: 370px;
+    }
+    .about-info h1 {
+        font-size: 32px;
+    }
+    .about-info p {
+        font-size: 15px;
+    }
+    .single-contact {
+        flex-basis: 169px;
+    }
+    .single-contact i {
+        height: 25px;
+        width: 24px;
+        line-height: 25px;
+        font-size: 12px;
+        margin-left: 6px;
+    }
+    .single-contact h1 {
+        font-size: 14px;
+    }
+    .single-contact {
+        flex-basis: 169px;
+    }
+    .about-img {
+        flex-basis: 348px;
+    }
+    .about-img img {
+        width: 50%;
+        padding: 0 6px;
+    }
+    .service {
+        margin: 7px 95px;
+    }
+    .single-service {
+        margin-bottom: 60px;
+    }
+    .team {
+        margin: 0 54px;
+    }
+    .team img {
+        width: 42%;
+    }
+    .single-news {
+        flex-basis: 241px;
+    }
+    .single-news h3 {
+        font-size: 18px;
+    }
+    .news-items ul li span {
+        font-size: 11px;
+    }
+    .contact-form {
+        flex-basis: 100%;
+    }
+}
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px) {
+
+    .container{
+        width: 350px;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .logo {
+        flex-basis: 46px;
+    }
+    .logo a {
+        font-size: 33px;
+    }
+    .menu {
+        flex-basis: 240px;
+    }
+    .menu ul {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .menu ul li {
+        margin: 6px 0;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    .banner-area {
+        height: 224px;
+    }
+    .banner {
+        width: 155px;
+        padding: 32px 0;
+    }
+    .banner h4 {
+        font-size: 14px;
+    }
+    .banner h1 {
+        font-size: 27px;
+        padding: 8px 0;
+    }
+    .banner p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+    .about-info {
+        flex-basis: 100%;
+    }
+    .about-info h1 {
+        font-size: 15px;
+    }
+    .single-contact {
+        flex-basis: 160px;
+    }
+    .single-contact i {
+        margin-left: 6px;
+    }
+    .about-img {
+        flex-basis: 360px;
+    }
+    .about-img img {
+        width: 50%;
+        padding: 25px 12px;
+    }
+    .section-title {
+        line-height: 47px;
+        padding-bottom: 35px;
+    }
+    .single-service {
+        flex-basis: 288px;
+    }
+    .single-service img {
+        margin: 15px 98px;
+    }
+    .team-title {
+        font-size: 19px;
+        padding-bottom: 17px;
+    }
+    .team-info {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .team img {
+        width: 100%;
+    }
+    .single-news {
+        flex-basis: 100%;
+        margin-bottom: 70px;
+    }
+    .contact-info {
+        flex-basis: 100%;
+    }
+    .contact-form {
+        flex-basis: 100%;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 450px;
+    }
+
+}
